@@ -5,6 +5,7 @@ using Microsoft.UI.Xaml.Controls.Primitives;
 using Microsoft.UI.Xaml.Input;
 using Microsoft.Web.WebView2.Core;
 using Starward.Core;
+using Starward.Core.Gacha.ZZZ;
 using Starward.Messages;
 using Starward.Services;
 using System;
@@ -54,6 +55,7 @@ public sealed partial class LoginPage : PageBase
                 GameBiz.GenshinImpact => $"{URL_CN}ys",
                 GameBiz.StarRail => $"{URL_CN}sr",
                 GameBiz.Honkai3rd => $"{URL_CN}bh3",
+                GameBiz.ZZZ => $"{URL_CN}zzz",
                 _ => URL_CN,
             };
         }
